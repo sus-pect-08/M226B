@@ -77,8 +77,8 @@ content.interfaces.Purchasable <|.. content.model.DigitalContent
 content.model.DigitalContent <|-- content.model.DigitalMagazine
 content.model.DigitalContent <|-- content.model.EBook
 content.model.DigitalContent <|-- content.model.OnlineCourse
-content.model.AudioBook  <|.. content.main.Main
-content.model.EBook  <|.. content.main.Main
-content.model.DigitalMagazine  <|.. content.main.Main
-content.model.OnlineCourse <|.. content.main.Main
+content.model.AudioBook  <|-- content.main.Main
+content.model.EBook  <|-- content.main.Main
+content.model.DigitalMagazine  <|-- content.main.Main
+content.model.OnlineCourse <|-- content.main.Main
 @enduml
